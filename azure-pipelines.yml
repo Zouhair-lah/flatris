@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Default
+pool: 'ubuntu-latest'
 
 steps:
 - task: NodeTool@0
